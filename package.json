@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/jayptl23/battleship#readme",
   "devDependencies": {
+    "jest": "^27.4.7",
     "webpack": "^5.65.0",
     "webpack-cli": "^4.9.1"
   }
