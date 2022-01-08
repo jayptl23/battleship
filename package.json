@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --watch",
     "watch": "webpack --watch"
   },
   "repository": {
@@ -19,6 +19,9 @@
   },
   "homepage": "https://github.com/jayptl23/battleship#readme",
   "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "babel-jest": "^27.4.6",
     "jest": "^27.4.7",
     "webpack": "^5.65.0",
     "webpack-cli": "^4.9.1"
